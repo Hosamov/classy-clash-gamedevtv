@@ -11,4 +11,5 @@ class Enemy : public BaseCharacter {
   private:
     Character* target; // Pointer to character
     float damagePerSec{10.f};
+    float radius{25.f};
 };
